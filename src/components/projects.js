@@ -50,10 +50,16 @@ const Projects = () => {
         {projects.map(project => {
           const { title, description, url, moreLinks } = project
           return (
-            <div key={title}>
+            <div key={title} style = {{
+              border:"2px solid rgba(0,0,0,0.4)",
+              borderRadius: "24px",
+              paddingLeft: "16px",
+              backgroundColor: "rgba(0,255,0,0.2)",
+              marginTop: "16px"}}>
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
+                  color: "black"
                 }}
               >
                 <a

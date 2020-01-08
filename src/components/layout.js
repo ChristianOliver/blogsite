@@ -67,11 +67,7 @@ class Layout extends React.Component {
             marginTop: 70,
           }}
         >
-          © {new Date().getFullYear()}, Forked from
-          {` `}
-          <a href="https://github.com/gatsbyjs/gatsby-starter-blog">
-            Gatsby Starter Blog
-          </a>
+          © {new Date().getFullYear()}, Chris Oliver
         </footer>
       </div>
     )

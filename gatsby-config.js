@@ -1,29 +1,25 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog & Porfolio`,
-    author: `Ali Salah`,
+    title: `Chris Oliver`,
+    author: `Chris Oliver`,
     description: `A starter blog & portfolio for gatsby.`,
     siteUrl: `https://gatsby-starter-blog-and-portfolio-demo.netlify.com/`,
     social: {
-      twitter: `alisalahio`,
+      twitter: ``,
     },
     projects: [
       {
-        title: `Gatsby Starter Blog & Portfolio!`,
-        description: `Gatsby official starter with portfolio section added!`,
-        url: `https://gatsby-starter-blog-and-portfolio.netlify.com/`,
+        title: `Coding Blog & Portfolio!`,
+        description: `Site built with gatsby`,
+        url: `https://chrisoliver.netlify.com/`,
         moreLinks: [
           {
             type: `Github`,
-            url: `https://github.com/alisalahio/gatsby-starter-blog-and-portfolio`,
+            url: `https://github.com/ChristianOliver/blogsite`,
           },
         ],
       },
-      {
-        title: `React`,
-        description: `React's homepage is created with Gatsby!`,
-        url: `https://reactjs.org/`,
-      },
+  
     ],
   },
   plugins: [
@@ -81,7 +77,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/Space Illustration.jpg`,
       },
     },
     `gatsby-plugin-offline`,
