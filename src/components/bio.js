@@ -54,7 +54,7 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong>{author}</strong> who develops and designs. A blogging adventure in coding, design, and the topics they might bring up. Will be updated many times a year.
+        <strong>{author}</strong> develops and designs. A blogging adventure in coding, design, and the topics they might bring up. Will be updated many times a year.
         {` `}
        {/* <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter

@@ -37,9 +37,14 @@ const Projects = () => {
           style={{
             ...scale(0.2),
             fontFamily: `Montserrat, sans-serif`,
+            fontWeight: 'Bold',
             marginTop: 0,
             marginBottom: 0,
-            color: "grey",
+            paddingLeft: 4,
+            color: `rgb(30,30,30)`,
+            borderLeft: `1px solid black`,
+            borderBottom: `1px solid black`,
+
             textTransform: "uppercase",
           }}
         >
@@ -51,11 +56,15 @@ const Projects = () => {
           const { title, description, url, moreLinks } = project
           return (
             <div key={title} style = {{
-              border:"2px solid rgba(0,0,0,0.4)",
-              borderRadius: "24px",
-              paddingLeft: "16px",
-              backgroundColor: "rgba(0,255,0,0.2)",
-              marginTop: "16px"}}>
+              marginTop: "4px",
+               borderBottom: `1px solid blue`,
+               borderLeft:`1px solid blue`,
+              paddingLeft:`8px`,
+              borderBottomLeftRadius: `32px`,
+
+              maxWidth: `500px`,
+
+              color: "black"}}>
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),
@@ -64,7 +73,7 @@ const Projects = () => {
               >
                 <a
                   href={url}
-                  style={{ boxShadow: `none` }}
+                  style={{ boxShadow: `none`,color:"black" }}
                   target="_blank"
                   rel="noopener noreferrer"
                 >

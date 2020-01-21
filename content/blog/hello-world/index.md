@@ -1,7 +1,7 @@
 ---
 title: World, Hello
 date: "2020-01-08"
-description: "A beginning of sorts"
+description: "What this blog is intended to be."
 ---
 
 >   "The Road goes ever on and on."  by J.R.R. Tolkien

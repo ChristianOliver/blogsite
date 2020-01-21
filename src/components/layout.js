@@ -16,12 +16,16 @@ class Layout extends React.Component {
             ...scale(1.5),
             marginBottom: rhythm(1.5),
             marginTop: 0,
+            color: "black",
+            fontWeight: `Bold`
           }}
         >
           <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
+              fontWeight: `Bold`,
+              
               color: `inherit`,
             }}
             to={`/`}
@@ -36,6 +40,7 @@ class Layout extends React.Component {
           style={{
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
+            
           }}
         >
           <Link
@@ -43,6 +48,7 @@ class Layout extends React.Component {
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
+              fontWeight:`bold`
             }}
             to={`/`}
           >
@@ -52,10 +58,11 @@ class Layout extends React.Component {
       )
     }
     return (
-      <div
+      <div 
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
+          
           maxWidth: rhythm(24),
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
@@ -64,7 +71,7 @@ class Layout extends React.Component {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: 70,
+            marginTop: 70, 
           }}
         >
           © {new Date().getFullYear()}, Chris Oliver
