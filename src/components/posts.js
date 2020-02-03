@@ -33,14 +33,18 @@ const Posts = () => {
           style={{
             ...scale(0.2),
             fontFamily: `Montserrat, sans-serif`,
-            marginTop: rhythm(3),
-            marginBottom: 0,
+            marginTop: `48px`,
+            paddingLeft: 12,
+            paddingBottom: 8,
+            paddingTop: 8,
             fontWeight: `Bold`,
-            color: "rgb(30,30,30)",
             textTransform: "uppercase",
-            paddingLeft: `4px`,
-            borderLeft: `1px solid black`,
-            borderBottom: `1px solid black`,
+            color: `rgb(255,255,255)`,
+            backgroundColor: ` rgb(220,50,30)`,
+            borderBottomLeftRadius:`16px`,
+            borderTopRightRadius: `16px`,
+            letterSpacing: `1px`,
+            maxWidth: `600px`
           }}
         >
           Recent Posts
@@ -51,12 +55,15 @@ const Posts = () => {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug} style ={{              
-            marginTop: "4px",
-            borderBottom: `1px solid blue`,
-            borderLeft:`1px solid blue`,
-            borderBottomLeftRadius: `32px`,
-           paddingLeft:`8px`,
-           maxWidth: `500px`}}>
+              boxShadow: `2px 2px 2px  grey`,
+              marginTop: `12px`,
+        paddingLeft: `8px`,
+        paddingBottom: `2px`,
+        borderRadius:`24px`,
+        
+        borderTop: `1px solid grey`,
+        borderLeft: `1px solid grey`,
+           maxWidth: `600px`}}>
               <h3
                 style={{
                   marginBottom: rhythm(1 / 4),

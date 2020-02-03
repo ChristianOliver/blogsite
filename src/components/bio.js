@@ -36,8 +36,14 @@ const Bio = () => {
   return (
     <div
       style={{
+        boxShadow: `3px 3px 4px  grey`,
+        padding: `8px`,
+        borderRadius:`24px`,
+        borderTop: `1px solid grey`,
+        borderLeft: `1px solid grey`,
+        maxWidth: `600px`,
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: `48px`,
       }}
     >
       <Image
@@ -47,14 +53,14 @@ const Bio = () => {
           marginRight: rhythm(1 / 2),
           marginBottom: 0,
           minWidth: 75,
-          borderRadius: `100%`,
+          borderRadius: `50%`,
         }}
         imgStyle={{
-          borderRadius: `50%`,
+          borderRadius: `100%`,
         }}
       />
       <p>
-        <strong>{author}</strong> develops and designs. A blogging adventure in coding, design, and the topics they might bring up. Will be updated many times a year.
+        <strong style={{color: `red`}}>{author}</strong> develops and designs. A blogging adventure in coding, design, and the topics they might bring up. Will be updated many times a year.
         {` `}
        {/* <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter

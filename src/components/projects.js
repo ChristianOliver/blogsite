@@ -39,13 +39,17 @@ const Projects = () => {
             fontFamily: `Montserrat, sans-serif`,
             fontWeight: 'Bold',
             marginTop: 0,
-            marginBottom: 0,
-            paddingLeft: 4,
-            color: `rgb(30,30,30)`,
-            borderLeft: `1px solid black`,
-            borderBottom: `1px solid black`,
-
+            marginBottom: 12,
+            paddingLeft: 12,
+            paddingBottom: 8,
+            paddingTop: 8,
+            letterSpacing: `1px`,
+            color: `rgb(255,255,255)`,
+            backgroundColor: ` rgb(220,50,30)`,
+            borderBottomLeftRadius:`16px`,
+            borderTopRightRadius: `16px`,
             textTransform: "uppercase",
+            maxWidth: `600px`
           }}
         >
           Recent Projects
@@ -56,13 +60,16 @@ const Projects = () => {
           const { title, description, url, moreLinks } = project
           return (
             <div key={title} style = {{
-              marginTop: "4px",
-               borderBottom: `1px solid blue`,
-               borderLeft:`1px solid blue`,
-              paddingLeft:`8px`,
-              borderBottomLeftRadius: `32px`,
+              boxShadow: `2px 2px 2px  grey`,
+              marginTop: `12px`,
+        paddingLeft: `8px`,
+        paddingBottom: `2px`,
+        maxWidth: `600px`,
+        borderRadius:`24px`,
+        borderTop: `1px solid grey`,
+        borderLeft: `1px solid grey`,
 
-              maxWidth: `500px`,
+
 
               color: "black"}}>
               <h3

@@ -21,7 +21,7 @@ module.exports = {
       },
       {
         title: `Book List App`,
-        description: `Vanilla JS app. Uses local storage, javascript forms, and bootstrap`,
+        description: `Vanilla JS app for keeping track of books. Uses local storage, forms, and bootstrap`,
         url: `https://github.com/ChristianOliver/booklistapp`,
       
       }

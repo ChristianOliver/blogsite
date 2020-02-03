@@ -12,4 +12,4 @@ Demand drives design, and there is no demand without show of value. It's not eno
 Clear tasks set clear work. Pitch a clear, specific brief. This is useful when you are showing your work later. Determine needs at the beginning. It will be a useful guide later, and make your work more valuable and focused. 
 
 The topic of showing your work could fill books, but you either have pictures of Spider Man or not.
-
+Translation: Show your work
