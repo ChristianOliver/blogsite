@@ -1,7 +1,7 @@
 ---
 title: Ask, Ask, and Ascii.
 date: "2020-02-13"
-description: "On Asking the right questions"
+description: "On Asking the Right Questions"
 ---
 
 ### Ask the right questions now
