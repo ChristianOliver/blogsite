@@ -60,7 +60,7 @@ const Bio = () => {
         }}
       />
       <p>
-        <strong style={{color: `red`}}>{author}</strong> develops and designs. A blogging adventure in coding, design, and the topics they might bring up. Will be updated many times a year.
+        <strong style={{color: `rgb(210,50,40)`}}>{author}</strong> develops and designs. A blogging adventure in coding, design, and the topics they might bring up. Will be updated many times a year.
         {` `}
        {/* <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter

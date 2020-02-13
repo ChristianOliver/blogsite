@@ -40,7 +40,7 @@ const Posts = () => {
             fontWeight: `Bold`,
             textTransform: "uppercase",
             color: `rgb(255,255,255)`,
-            backgroundColor: ` rgb(220,50,30)`,
+            backgroundColor: ` rgb(210,50,40)`,
             borderBottomLeftRadius:`16px`,
             borderTopRightRadius: `16px`,
             letterSpacing: `1px`,

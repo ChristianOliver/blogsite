@@ -23,7 +23,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(1),
             marginBottom: 0,
             fontWeight: `Bold`,
-            color:`rgb(220,50,30)`
+            color:`rgb(rgb(210,50,40))`
           }}
         >
           {post.frontmatter.title}
